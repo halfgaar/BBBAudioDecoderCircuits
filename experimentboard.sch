@@ -17245,6 +17245,29 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <rectangle x1="0.9652" y1="-1.5748" x2="1.5748" y2="-0.9652" layer="51"/>
 <rectangle x1="-1.5748" y1="-1.5748" x2="-0.9652" y2="-0.9652" layer="51"/>
 </package>
+<package name="JP1">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
+<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
+<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="J2">
@@ -17267,6 +17290,20 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pin name="3" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="4" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="J1">
+<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="5.08" x2="1.905" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="5.08" x2="1.905" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="-5.08" x2="-1.905" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="-1.905" y2="5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="JP2Q" prefix="JP" uservalue="yes">
@@ -17281,6 +17318,23 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <connect gate="B1" pin="2" pad="2"/>
 <connect gate="B1" pin="3" pad="3"/>
 <connect gate="B1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JP1Q" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="J1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP1">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17303,7 +17357,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="U1" library="0000halfgaar" deviceset="PCM1690" device=""/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="22"/>
 <part name="SUPPLY3" library="supply2" deviceset="AGND" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="SUPPLY5" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="DGND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="050-024X044" value="1µF ml"/>
@@ -17313,7 +17367,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="SUPPLY7" library="supply2" deviceset="VCC" device=""/>
-<part name="C7" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22uF"/>
 <part name="IC1" library="0000halfgaar" deviceset="TL072" device="P"/>
 <part name="1_R1" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
 <part name="1_R2" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
@@ -17407,7 +17461,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY31" library="supply2" deviceset="VDD" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="0"/>
 <part name="SUPPLY13" library="supply2" deviceset="DGND" device=""/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="0207/10" value="0"/>
 <part name="SUPPLY27" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="VCC" device=""/>
 <part name="IC4" library="0000halfgaar" deviceset="TL072" device="P"/>
@@ -17524,6 +17577,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C12" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
 <part name="C14" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
+<part name="JP3" library="jumper" deviceset="JP1Q" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17779,7 +17833,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="SUPPLY31" gate="G$1" x="30.48" y="43.18"/>
 <instance part="R1" gate="G$1" x="124.46" y="215.9" rot="R180"/>
 <instance part="SUPPLY13" gate="G$1" x="132.08" y="210.82"/>
-<instance part="R27" gate="G$1" x="198.12" y="241.3" rot="R180"/>
 <instance part="SUPPLY27" gate="G$1" x="210.82" y="238.76" rot="R180"/>
 <instance part="SUPPLY28" gate="G$1" x="-101.6" y="93.98"/>
 <instance part="IC4" gate="A" x="353.06" y="93.98" rot="MR180"/>
@@ -18130,6 +18183,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C12" gate="G$1" x="170.18" y="215.9"/>
 <instance part="C13" gate="G$1" x="177.8" y="215.9"/>
 <instance part="C14" gate="G$1" x="185.42" y="215.9"/>
+<instance part="JP3" gate="A" x="198.12" y="241.3" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -18352,7 +18406,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="-83.82" y="-15.24"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="VCOM" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="VCOM"/>
 <wire x1="129.54" y1="7.62" x2="132.08" y2="7.62" width="0.1524" layer="91"/>
@@ -18624,15 +18678,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="121.92" y1="-83.82" x2="132.08" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="SUPPLY27" gate="G$1" pin="VCC"/>
-<wire x1="203.2" y1="241.3" x2="210.82" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="VDD_5V"/>
 <pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
 <wire x1="-78.74" y1="83.82" x2="-101.6" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="83.82" x2="-101.6" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="SUPPLY27" gate="G$1" pin="VCC"/>
+<wire x1="205.74" y1="241.3" x2="210.82" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -18922,7 +18976,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="D6" gate="G$1" pin="A"/>
 <pinref part="P+1" gate="1" pin="V+"/>
 <pinref part="C32" gate="G$1" pin="1"/>
-<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="241.3" x2="144.78" y2="241.3" width="0.1524" layer="91"/>
 <junction x="137.16" y="241.3"/>
 <pinref part="C40" gate="G$1" pin="1"/>
@@ -18931,7 +18984,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="160.02" y1="241.3" x2="170.18" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="241.3" x2="177.8" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="241.3" x2="185.42" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="241.3" x2="193.04" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="218.44" x2="144.78" y2="241.3" width="0.1524" layer="91"/>
 <junction x="144.78" y="241.3"/>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -18948,6 +19000,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="177.8" y="241.3"/>
 <pinref part="C14" gate="G$1" pin="+"/>
 <wire x1="185.42" y1="218.44" x2="185.42" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="185.42" y1="241.3" x2="190.5" y2="241.3" width="0.1524" layer="91"/>
 <junction x="185.42" y="241.3"/>
 </segment>
 </net>
@@ -19877,11 +19931,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="202,1,-81.28,7.62,U$3,A0,,,,"/>
-<approved hash="202,1,-81.28,5.08,U$3,A1,,,,"/>
-<approved hash="202,1,-50.8,5.08,U$3,WP,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
