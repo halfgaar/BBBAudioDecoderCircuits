@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,12 +43,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -17380,8 +17380,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY8" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="AGND" device=""/>
 <part name="1_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="1_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="1_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="1_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="1_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="1_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="SUPPLY15" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="AGND" device=""/>
@@ -17397,8 +17397,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY21" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="AGND" device=""/>
 <part name="2_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="2_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="2_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="2_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="2_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="2_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="SUPPLY23" library="supply2" deviceset="AGND" device=""/>
 <part name="IC2" library="v-reg" deviceset="LM317TS" device="" value="LM317"/>
@@ -17474,8 +17474,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY29" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="AGND" device=""/>
 <part name="3_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="3_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="3_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="3_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="3_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="3_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="AOUT1" library="con-ptr500" deviceset="AK500/3" device=""/>
 <part name="4_R1" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
@@ -17489,8 +17489,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY32" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY33" library="supply2" deviceset="AGND" device=""/>
 <part name="4_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="4_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="4_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="4_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="4_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="4_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="SUPPLY34" library="supply2" deviceset="AGND" device=""/>
 <part name="C40" library="rcl" deviceset="C-EU" device="050-024X044" value="100nf"/>
@@ -17506,8 +17506,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY35" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="AGND" device=""/>
 <part name="5_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="5_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="5_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="5_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="5_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="5_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="AOUT2" library="con-ptr500" deviceset="AK500/3" device=""/>
 <part name="6_R1" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
@@ -17521,8 +17521,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY37" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="AGND" device=""/>
 <part name="6_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="6_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="6_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="6_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="6_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="6_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="SUPPLY39" library="supply2" deviceset="AGND" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="050-024X044" value="100nf"/>
@@ -17538,8 +17538,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY40" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="AGND" device=""/>
 <part name="7_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="7_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="7_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="7_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="7_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="7_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="AOUT3" library="con-ptr500" deviceset="AK500/3" device=""/>
 <part name="8_R1" library="rcl" deviceset="R-EU_" device="0207/7" value="7.5k"/>
@@ -17553,8 +17553,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="SUPPLY42" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="AGND" device=""/>
 <part name="8_C5" library="rcl" deviceset="C-EU" device="050-024X044" value="680pF"/>
-<part name="8_C1" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
-<part name="8_C2" library="rcl" deviceset="CPOL-EU" device="E1.8-4" value="10 µF"/>
+<part name="8_C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="8_C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="8_R7" library="rcl" deviceset="R-EU_" device="0207/7" value="47"/>
 <part name="SUPPLY44" library="supply2" deviceset="AGND" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="050-024X044" value="100nf"/>
