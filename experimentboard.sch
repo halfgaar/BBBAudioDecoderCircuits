@@ -17574,7 +17574,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C14" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
 <part name="JP3" library="jumper" deviceset="JP1Q" device=""/>
 <part name="C16" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
-<part name="C17" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="JP4" library="jumper" deviceset="JP1Q" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="DGND" device=""/>
@@ -18182,7 +18181,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C14" gate="G$1" x="185.42" y="215.9"/>
 <instance part="JP3" gate="A" x="198.12" y="241.3" rot="R90"/>
 <instance part="C16" gate="G$1" x="96.52" y="-187.96" rot="R90"/>
-<instance part="C17" gate="G$1" x="175.26" y="-83.82"/>
 <instance part="JP4" gate="A" x="124.46" y="215.9" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="193.04" y="-78.74" rot="R270"/>
 <instance part="SUPPLY10" gate="G$1" x="195.58" y="-91.44" rot="R90"/>
@@ -18318,12 +18316,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="121.92" y1="-83.82" x2="170.18" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-83.82" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-78.74" x2="175.26" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="+"/>
-<wire x1="175.26" y1="-81.28" x2="175.26" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="175.26" y="-78.74"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VDD"/>
-<wire x1="175.26" y1="-78.74" x2="190.5" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-78.74" x2="190.5" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -18415,11 +18409,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="DGND"/>
-<wire x1="193.04" y1="-91.44" x2="175.26" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="-"/>
-<wire x1="175.26" y1="-88.9" x2="175.26" y2="-91.44" width="0.1524" layer="91"/>
-<junction x="175.26" y="-91.44"/>
-<wire x1="175.26" y1="-91.44" x2="170.18" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-91.44" x2="170.18" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="AGND"/>
 <wire x1="162.56" y1="-88.9" x2="144.78" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-88.9" x2="121.92" y2="-88.9" width="0.1524" layer="91"/>
