@@ -2423,7 +2423,10 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="30.353" y="77.216" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="30.353" y="80.137" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U2" library="0000halfgaar" package="TSSOP28" value="DIR9001" x="83.82" y="66.675" rot="R180"/>
+<element name="U2" library="0000halfgaar" package="TSSOP28" value="DIR9001" x="83.82" y="66.675" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.83185" y="65.5828" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="77.6588" y="68.7578" size="1.016" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="C1" library="rcl" package="C050-024X044" value="4.7n" x="79.21625" y="58.57875" smashed="yes" rot="R180">
 <attribute name="NAME" x="78.20025" y="57.18175" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="81.37525" y="61.24575" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -2775,7 +2778,7 @@ Current date of revision of DRC: 2012-07-08.
 </element>
 <element name="C16" library="rcl" package="E2-5" value="10 µF" x="93.18625" y="73.66" rot="R90"/>
 <element name="C17" library="rcl" package="E2-5" value="10 µF" x="91.7575" y="67.945" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.64625" y="71.53275" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="94.77375" y="65.18275" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="93.9165" y="70.485" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="JP4" library="jumper" package="JP1" value="" x="43.18" y="87.63" smashed="yes" rot="R90">
@@ -2849,11 +2852,6 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="86.83625" y1="89.535" x2="90.805" y2="89.535" width="1.016" layer="16"/>
 <contactref element="U2" pad="24"/>
 <contactref element="C17" pad="+"/>
-<wire x1="85.445" y1="63.7572" x2="85.445" y2="64.96625" width="0.254" layer="1"/>
-<wire x1="85.445" y1="64.96625" x2="85.88375" y2="65.405" width="0.254" layer="1"/>
-<wire x1="85.88375" y1="65.405" x2="91.44" y2="65.405" width="0.254" layer="1"/>
-<wire x1="91.44" y1="65.405" x2="91.7575" y2="65.7225" width="0.254" layer="1"/>
-<wire x1="91.7575" y1="65.7225" x2="91.7575" y2="66.929" width="0.254" layer="1"/>
 </signal>
 <signal name="DGND">
 <contactref element="U1" pad="13"/>
@@ -2921,7 +2919,10 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="84.795" y1="62.2075" x2="85.88375" y2="61.11875" width="0.254" layer="1"/>
 <wire x1="85.88375" y1="61.11875" x2="85.88375" y2="56.67375" width="0.254" layer="1"/>
 <wire x1="85.88375" y1="56.67375" x2="85.24875" y2="56.03875" width="0.254" layer="1"/>
-<wire x1="82.195" y1="63.7572" x2="84.795" y2="63.7572" width="0" layer="19" extent="1-1"/>
+<wire x1="84.795" y1="63.7572" x2="84.795" y2="65.11" width="0.254" layer="1"/>
+<wire x1="85.4075" y1="65.7225" x2="88.519" y2="65.7225" width="0.254" layer="1"/>
+<wire x1="88.519" y1="65.7225" x2="91.7575" y2="68.961" width="0.254" layer="1"/>
+<wire x1="84.795" y1="65.11" x2="85.4075" y2="65.7225" width="0.254" layer="1"/>
 </signal>
 <signal name="AGND">
 <contactref element="U1" pad="27"/>
@@ -3502,11 +3503,11 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="98.90125" y1="79.85125" x2="90.64625" y2="79.85125" width="0.254" layer="1"/>
 <wire x1="89.69375" y1="78.89875" x2="89.69375" y2="67.78625" width="0.254" layer="1"/>
 <wire x1="82.845" y1="63.7572" x2="82.845" y2="64.58875" width="0.254" layer="1"/>
-<wire x1="82.845" y1="64.58875" x2="83.5025" y2="65.24625" width="0.254" layer="1"/>
-<wire x1="83.5025" y1="65.24625" x2="84.61375" y2="65.24625" width="0.254" layer="1"/>
-<wire x1="84.61375" y1="65.24625" x2="85.725" y2="66.3575" width="0.254" layer="1"/>
-<wire x1="85.725" y1="66.3575" x2="88.265" y2="66.3575" width="0.254" layer="1"/>
+<wire x1="85.24875" y1="66.3575" x2="88.265" y2="66.3575" width="0.254" layer="1"/>
 <wire x1="90.64625" y1="79.85125" x2="89.69375" y2="78.89875" width="0.254" layer="1"/>
+<wire x1="85.24875" y1="66.3575" x2="84.1375" y2="65.24625" width="0.254" layer="1"/>
+<wire x1="84.1375" y1="65.24625" x2="83.5025" y2="65.24625" width="0.254" layer="1"/>
+<wire x1="83.5025" y1="65.24625" x2="82.845" y2="64.58875" width="0.254" layer="1"/>
 </signal>
 <signal name="MCLK">
 <contactref element="R4" pad="1"/>
