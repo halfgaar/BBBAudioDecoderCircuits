@@ -118,6 +118,9 @@
 <text x="100.965" y="53.18125" size="1.016" layer="21">24b I2S</text>
 <text x="51.27625" y="86.36" size="1.016" layer="21">Closed: feed
 BBB PWR</text>
+<text x="107.95" y="6.35" size="1.016" layer="21" rot="R90">Beagle Bone multi-channel audio decoder
+Designed by Halfgaar
+Ver x: 2017-02-08</text>
 </plain>
 <libraries>
 <library name="rcl">
