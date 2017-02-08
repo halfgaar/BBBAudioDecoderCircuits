@@ -2748,7 +2748,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="105.3465" y="67.818" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="100.9015" y="69.81825" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U3" library="0000halfgaar" package="TSSOP8" value="CAT24C256" x="76.2" y="81.5975" smashed="yes">
+<element name="U3" library="0000halfgaar" package="TSSOP8" value="CAT24C256YI-GT3" x="76.2" y="81.5975" smashed="yes">
 <attribute name="NAME" x="79.6925" y="80.772" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="79.248" y="79.0575" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
