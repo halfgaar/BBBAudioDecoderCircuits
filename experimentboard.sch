@@ -17430,9 +17430,6 @@ grid 2.54 mm</description>
 <part name="JP1" library="jumper" deviceset="JP2Q" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="VDD" device=""/>
-<part name="JP2" library="jumper" deviceset="JP2Q" device=""/>
-<part name="SUPPLY24" library="supply2" deviceset="VDD" device=""/>
-<part name="SUPPLY26" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="DGND" device=""/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="0207/7" value="22"/>
@@ -17561,9 +17558,9 @@ grid 2.54 mm</description>
 <part name="C12" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
 <part name="C14" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100uF/25V"/>
-<part name="JP3" library="jumper" deviceset="JP1Q" device=""/>
+<part name="JP2" library="jumper" deviceset="JP1Q" device=""/>
 <part name="C16" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
-<part name="JP4" library="jumper" deviceset="JP1Q" device=""/>
+<part name="JP3" library="jumper" deviceset="JP1Q" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
@@ -17789,9 +17786,6 @@ grid 2.54 mm</description>
 <instance part="JP1" gate="B1" x="134.62" y="-73.66" rot="MR180"/>
 <instance part="SUPPLY20" gate="G$1" x="152.4" y="-68.58" rot="R270"/>
 <instance part="SUPPLY25" gate="G$1" x="152.4" y="-78.74" rot="R270"/>
-<instance part="JP2" gate="B1" x="71.12" y="-132.08" rot="MR180"/>
-<instance part="SUPPLY24" gate="G$1" x="58.42" y="-124.46" rot="R90"/>
-<instance part="SUPPLY26" gate="G$1" x="58.42" y="-132.08" rot="R90"/>
 <instance part="SUPPLY17" gate="G$1" x="73.66" y="-99.06" rot="R270"/>
 <instance part="SUPPLY18" gate="G$1" x="132.08" y="-109.22" rot="R90"/>
 <instance part="R30" gate="G$1" x="73.66" y="-109.22" smashed="yes">
@@ -18175,9 +18169,9 @@ grid 2.54 mm</description>
 <instance part="C12" gate="G$1" x="170.18" y="215.9"/>
 <instance part="C13" gate="G$1" x="177.8" y="215.9"/>
 <instance part="C14" gate="G$1" x="185.42" y="215.9"/>
-<instance part="JP3" gate="A" x="-99.06" y="83.82" rot="R90"/>
+<instance part="JP2" gate="A" x="-99.06" y="83.82" rot="R90"/>
 <instance part="C16" gate="G$1" x="96.52" y="-187.96" rot="R90"/>
-<instance part="JP4" gate="A" x="124.46" y="215.9" rot="R90"/>
+<instance part="JP3" gate="A" x="124.46" y="215.9" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="193.04" y="-78.74" rot="R270"/>
 <instance part="SUPPLY10" gate="G$1" x="195.58" y="-91.44" rot="R90"/>
 <instance part="SUPPLY11" gate="G$1" x="152.4" y="-124.46"/>
@@ -18353,17 +18347,6 @@ grid 2.54 mm</description>
 <pinref part="JP1" gate="B1" pin="3"/>
 <wire x1="149.86" y1="-66.04" x2="137.16" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="SUPPLY24" gate="G$1" pin="VDD"/>
-<pinref part="JP2" gate="B1" pin="1"/>
-<wire x1="60.96" y1="-124.46" x2="71.12" y2="-124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="B1" pin="2"/>
-<pinref part="SUPPLY26" gate="G$1" pin="VDD"/>
-<wire x1="71.12" y1="-139.7" x2="60.96" y2="-139.7" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-139.7" x2="60.96" y2="-132.08" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="DGND" class="0">
 <segment>
@@ -18428,7 +18411,7 @@ grid 2.54 mm</description>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="DGND"/>
 <wire x1="132.08" y1="215.9" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="JP3" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY46" gate="G$1" pin="DGND"/>
@@ -18578,7 +18561,7 @@ grid 2.54 mm</description>
 <pinref part="C34" gate="G$1" pin="-"/>
 <wire x1="55.88" y1="223.52" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="AGND"/>
-<pinref part="JP4" gate="A" pin="2"/>
+<pinref part="JP3" gate="A" pin="2"/>
 <wire x1="116.84" y1="215.9" x2="114.3" y2="215.9" width="0.1524" layer="91"/>
 <junction x="114.3" y="215.9"/>
 </segment>
@@ -18757,7 +18740,7 @@ grid 2.54 mm</description>
 <segment>
 <pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
 <wire x1="-109.22" y1="83.82" x2="-109.22" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="2"/>
 <wire x1="-106.68" y1="83.82" x2="-109.22" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -19992,7 +19975,7 @@ grid 2.54 mm</description>
 <net name="VDD_5V" class="0">
 <segment>
 <pinref part="P9" gate="G$1" pin="VDD_5V"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="1"/>
 <wire x1="-86.36" y1="83.82" x2="-91.44" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20071,28 +20054,10 @@ grid 2.54 mm</description>
 <wire x1="127" y1="-73.66" x2="121.92" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PSCK1"/>
-<wire x1="83.82" y1="-129.54" x2="81.28" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-129.54" x2="81.28" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="B1" pin="4"/>
-<wire x1="81.28" y1="-139.7" x2="73.66" y2="-139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PSCK0"/>
-<pinref part="JP2" gate="B1" pin="3"/>
-<wire x1="83.82" y1="-124.46" x2="73.66" y2="-124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,-78.74,86.36,3.3V,VDD,,,,"/>
-<approved hash="102,1,-78.74,83.82,VDD_5V,VCC,,,,"/>
 <approved hash="202,1,76.2,12.7,U1,MS/ADR0/RSV,,,,"/>
 <approved hash="104,1,129.54,2.54,U1,VCC1,VCC,,,"/>
 <approved hash="104,1,129.54,114.3,U1,VCC2,VCC,,,"/>
@@ -20104,9 +20069,6 @@ grid 2.54 mm</description>
 <approved hash="104,1,-81.28,0,U3,VSS,DGND,,,"/>
 <approved hash="104,1,-50.8,7.62,U3,VCC,VDD,,,"/>
 <approved hash="202,1,-50.8,5.08,U3,WP,,,,"/>
-<approved hash="113,1,137.16,-73.5288,JP1,,,,,"/>
-<approved hash="113,1,71.12,-126.869,JP2,,,,,"/>
-<approved hash="113,1,198.12,239.899,JP3,,,,,"/>
 <approved hash="113,1,124.46,214.499,JP4,,,,,"/>
 </errors>
 </schematic>
