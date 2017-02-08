@@ -20058,9 +20058,14 @@ grid 2.54 mm</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,-86.36,86.36,3.3V,VDD,,,,"/>
 <approved hash="202,1,76.2,12.7,U1,MS/ADR0/RSV,,,,"/>
 <approved hash="104,1,129.54,2.54,U1,VCC1,VCC,,,"/>
 <approved hash="104,1,129.54,114.3,U1,VCC2,VCC,,,"/>
+<approved hash="202,1,83.82,-124.46,U2,PSCK0,,,,"/>
+<approved hash="202,1,83.82,-129.54,U2,PSCK1,,,,"/>
+<approved hash="104,1,121.92,-88.9,U2,AGND,DGND,,,"/>
+<approved hash="104,1,121.92,-83.82,U2,VCC,VDD,,,"/>
 <approved hash="202,1,121.92,-63.5,U2,CKSEL,,,,"/>
 <approved hash="104,1,104.14,-172.72,P1,GND,DGND,,,"/>
 <approved hash="104,1,99.06,-172.72,P1,VDD,N$12,,,"/>
@@ -20069,7 +20074,9 @@ grid 2.54 mm</description>
 <approved hash="104,1,-81.28,0,U3,VSS,DGND,,,"/>
 <approved hash="104,1,-50.8,7.62,U3,VCC,VDD,,,"/>
 <approved hash="202,1,-50.8,5.08,U3,WP,,,,"/>
-<approved hash="113,1,124.46,214.499,JP4,,,,,"/>
+<approved hash="113,1,134.489,-73.66,JP1,,,,,"/>
+<approved hash="113,1,-99.06,82.4188,JP2,,,,,"/>
+<approved hash="113,1,124.46,214.499,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
