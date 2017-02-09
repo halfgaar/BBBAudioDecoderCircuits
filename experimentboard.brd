@@ -2263,7 +2263,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="74.676" y="64.643" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="71.882" y="65.4685" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="IC1" library="0000halfgaar" package="DIL8" value="TL072P" x="91.44" y="19.05" rot="R90"/>
+<element name="IC1" library="0000halfgaar" package="DIL8" value="OPA2134" x="91.44" y="19.05" rot="R90"/>
 <element name="1_R1" library="rcl" package="0207/7" value="7.5k" x="99.06" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="98.552" y="42.8625" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="98.5012" y="44.196" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2487,7 +2487,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="56.515" y="79.248" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="56.896" y="79.2988" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="IC4" library="0000halfgaar" package="DIL8" value="TL072P" x="67.31" y="19.05" rot="R90"/>
+<element name="IC4" library="0000halfgaar" package="DIL8" value="OPA2134" x="67.31" y="19.05" rot="R90"/>
 <element name="3_R1" library="rcl" package="0207/7" value="7.5k" x="74.93" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.26325" y="44.1325" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="74.3712" y="44.196" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2573,7 +2573,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="63.881" y="8.54075" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="63.881" y="8.763" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="IC5" library="0000halfgaar" package="DIL8" value="TL072P" x="43.18" y="19.05" rot="R90"/>
+<element name="IC5" library="0000halfgaar" package="DIL8" value="OPA2134" x="43.18" y="19.05" rot="R90"/>
 <element name="5_R1" library="rcl" package="0207/7" value="7.5k" x="50.8" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.292" y="43.815" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="50.2412" y="44.196" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2656,7 +2656,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="40.7035" y="8.6995" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="39.751" y="8.763" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="IC6" library="0000halfgaar" package="DIL8" value="TL072P" x="16.51" y="19.05" rot="R90"/>
+<element name="IC6" library="0000halfgaar" package="DIL8" value="OPA2134" x="16.51" y="19.05" rot="R90"/>
 <element name="7_R1" library="rcl" package="0207/7" value="7.5k" x="24.13" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.46325" y="44.29125" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="23.5712" y="44.196" size="1.27" layer="27" ratio="10" rot="R270"/>
