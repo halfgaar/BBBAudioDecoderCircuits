@@ -17584,6 +17584,8 @@ grid 2.54 mm</description>
 <part name="OUT6" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="OUT7" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="OUT8" library="con-molex" deviceset="22-23-2021" device=""/>
+<part name="C17" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
+<part name="SUPPLY24" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18214,6 +18216,8 @@ grid 2.54 mm</description>
 <instance part="OUT7" gate="-2" x="414.02" y="-137.16"/>
 <instance part="OUT8" gate="-1" x="414.02" y="-149.86"/>
 <instance part="OUT8" gate="-2" x="414.02" y="-154.94"/>
+<instance part="C17" gate="G$1" x="-91.44" y="73.66"/>
+<instance part="SUPPLY24" gate="G$1" x="-91.44" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -18460,6 +18464,11 @@ grid 2.54 mm</description>
 <pinref part="SUPPLY54" gate="G$1" pin="DGND"/>
 <pinref part="Q2" gate="1" pin="S"/>
 <wire x1="5.08" y1="106.68" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY24" gate="G$1" pin="DGND"/>
+<pinref part="C17" gate="G$1" pin="-"/>
+<wire x1="-91.44" y1="63.5" x2="-91.44" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCOM" class="0">
@@ -19977,6 +19986,9 @@ grid 2.54 mm</description>
 <pinref part="P9" gate="G$1" pin="VDD_5V"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="-86.36" y1="83.82" x2="-91.44" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="+"/>
+<wire x1="-91.44" y1="76.2" x2="-91.44" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-91.44" y="83.82"/>
 </segment>
 </net>
 <net name="N$4" class="0">
