@@ -17568,11 +17568,11 @@ grid 2.54 mm</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0204/2V" value="0"/>
 <part name="Q1" library="transistor-small-signal" deviceset="BS170" device=""/>
 <part name="SUPPLY52" library="supply2" deviceset="DGND" device=""/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="0204/2V" value="68"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="0204/2V" value="120"/>
 <part name="SUPPLY53" library="supply2" deviceset="VDD" device=""/>
 <part name="Q2" library="transistor-small-signal" deviceset="BS170" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="DGND" device=""/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="0204/2V" value="68"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="0204/2V" value="120"/>
 <part name="SUPPLY55" library="supply2" deviceset="VDD" device=""/>
 <part name="READY" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="DECODING" library="con-molex" deviceset="22-23-2021" device=""/>

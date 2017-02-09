@@ -2797,7 +2797,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="VALUE" x="110.01375" y="84.7725" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="107.47375" y="83.34375" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="R10" library="rcl" package="0204V" value="68" x="102.07625" y="88.10625" smashed="yes">
+<element name="R10" library="rcl" package="0204V" value="120" x="102.07625" y="88.10625" smashed="yes">
 <attribute name="NAME" x="100.4189" y="89.27465" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="99.94265" y="85.79485" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -2805,7 +2805,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="VALUE" x="99.695" y="84.7725" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="95.5675" y="83.185" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="R11" library="rcl" package="0204V" value="68" x="92.075" y="88.10625" smashed="yes">
+<element name="R11" library="rcl" package="0204V" value="120" x="92.075" y="88.10625" smashed="yes">
 <attribute name="NAME" x="90.10015" y="85.6234" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="89.9414" y="85.79485" size="1.27" layer="27" ratio="10"/>
 </element>
