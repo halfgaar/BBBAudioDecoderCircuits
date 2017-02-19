@@ -1576,24 +1576,6 @@ type 0207, grid 10 mm</description>
 <text x="-5.4864" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="6.5786" y="-2.921" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="ADAPTER-PLUG-5.5MM">
-<description>Adapter plug 5.5 mm diameter.
-
-PCB mounted adapter plug as bought at Okaphone.</description>
-<wire x1="0" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-3.81" x2="8.89" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="0" y1="-13.97" x2="8.89" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-13.97" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
-<pad name="2" x="-0.3175" y="-11.1125" drill="2.5" diameter="3.81" rot="R90"/>
-<pad name="1" x="4.445" y="-7.62" drill="2.5" diameter="3.81"/>
-<pad name="3" x="4.445" y="-13.97" drill="3.2" diameter="5.08"/>
-<text x="6.35" y="-6.35" size="1.27" layer="48">1</text>
-<text x="0" y="-8.89" size="1.27" layer="48">2</text>
-<text x="6.35" y="-12.7" size="1.27" layer="48">3</text>
-</package>
 <package name="TSSOP28">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 28&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
@@ -1840,6 +1822,24 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc5089.pdf</descripti
 <rectangle x1="0.175" y1="2.225" x2="0.475" y2="3.2" layer="51" rot="R180"/>
 <rectangle x1="-0.475" y1="2.225" x2="-0.175" y2="3.2" layer="51" rot="R180"/>
 <rectangle x1="-1.125" y1="2.225" x2="-0.825" y2="3.2" layer="51" rot="R180"/>
+</package>
+<package name="ADAPTER-PLUG-5.5/2.1MM">
+<description>Adapter plug 5.5 mm diameter.
+
+PCB mounted adapter plug as bought at Okaphone.</description>
+<wire x1="0" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="0" y1="-13.97" x2="8.89" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<pad name="2" x="-0.3175" y="-11.1125" drill="2.5" diameter="3.81" rot="R90"/>
+<pad name="1" x="4.445" y="-7.62" drill="2.5" diameter="3.81"/>
+<pad name="3" x="4.445" y="-13.97" drill="3.2" diameter="5.08"/>
+<text x="6.35" y="-6.35" size="1.27" layer="48">1</text>
+<text x="0" y="-8.89" size="1.27" layer="48">2</text>
+<text x="6.35" y="-12.7" size="1.27" layer="48">3</text>
 </package>
 </packages>
 </library>
@@ -2414,7 +2414,6 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="88.646" y="8.6995" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="88.011" y="8.763" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="AC" library="0000halfgaar" package="ADAPTER-PLUG-5.5MM" value="ADAPTER-PLUG-5.5MM" x="-3.81" y="72.39" rot="R90"/>
 <element name="C33" library="rcl" package="E2,5-6" value="22µF/25V" x="28.8925" y="96.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.987" y="97.7265" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="26.2255" y="93.853" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2893,6 +2892,7 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="53.81625" y="83.2485" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="54.61" y="84.201" size="1.27" layer="27" ratio="10"/>
 </element>
+<element name="AC" library="0000halfgaar" package="ADAPTER-PLUG-5.5/2.1MM" value="ADAPTER-PLUG-5.5/2.1MM" x="-3.81" y="72.39" rot="R90"/>
 </elements>
 <signals>
 <signal name="VDD">
@@ -3051,7 +3051,6 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="D8" pad="C"/>
 <contactref element="R24" pad="1"/>
 <contactref element="C27" pad="1"/>
-<contactref element="AC" pad="3"/>
 <contactref element="3_C5" pad="1"/>
 <contactref element="3_R5" pad="1"/>
 <contactref element="4_C5" pad="1"/>
@@ -3095,6 +3094,7 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="OUT5" pad="1"/>
 <contactref element="OUT8" pad="1"/>
 <contactref element="OUT7" pad="1"/>
+<contactref element="AC" pad="3"/>
 </signal>
 <signal name="VCC">
 <contactref element="C6" pad="1"/>
@@ -3539,8 +3539,8 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="D3" pad="A"/>
 <contactref element="D4" pad="C"/>
 <contactref element="AC" pad="1"/>
-<wire x1="3.81" y1="68.58" x2="3.81" y2="76.835" width="0.8128" layer="1"/>
-<wire x1="3.81" y1="76.835" x2="3.81" y2="85.09" width="0.8128" layer="1"/>
+<wire x1="3.81" y1="68.58" x2="3.81" y2="76.835" width="1.016" layer="1"/>
+<wire x1="3.81" y1="76.835" x2="3.81" y2="85.09" width="1.016" layer="1"/>
 </signal>
 <signal name="N$41">
 <contactref element="D4" pad="A"/>

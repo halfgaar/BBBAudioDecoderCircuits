@@ -291,24 +291,6 @@
 <text x="-5.4864" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="6.5786" y="-2.921" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="ADAPTER-PLUG-5.5MM">
-<description>Adapter plug 5.5 mm diameter.
-
-PCB mounted adapter plug as bought at Okaphone.</description>
-<wire x1="0" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-3.81" x2="8.89" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.81" x2="0" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="0" y1="-13.97" x2="8.89" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-13.97" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
-<pad name="2" x="-0.3175" y="-11.1125" drill="2.5" diameter="3.81" rot="R90"/>
-<pad name="1" x="4.445" y="-7.62" drill="2.5" diameter="3.81"/>
-<pad name="3" x="4.445" y="-13.97" drill="3.2" diameter="5.08"/>
-<text x="6.35" y="-6.35" size="1.27" layer="48">1</text>
-<text x="0" y="-8.89" size="1.27" layer="48">2</text>
-<text x="6.35" y="-12.7" size="1.27" layer="48">3</text>
-</package>
 <package name="TSSOP28">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 28&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
@@ -555,6 +537,24 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc5089.pdf</descripti
 <rectangle x1="0.175" y1="2.225" x2="0.475" y2="3.2" layer="51" rot="R180"/>
 <rectangle x1="-0.475" y1="2.225" x2="-0.175" y2="3.2" layer="51" rot="R180"/>
 <rectangle x1="-1.125" y1="2.225" x2="-0.825" y2="3.2" layer="51" rot="R180"/>
+</package>
+<package name="ADAPTER-PLUG-5.5/2.1MM">
+<description>Adapter plug 5.5 mm diameter.
+
+PCB mounted adapter plug as bought at Okaphone.</description>
+<wire x1="0" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="0" y1="-13.97" x2="8.89" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-13.97" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<pad name="2" x="-0.3175" y="-11.1125" drill="2.5" diameter="3.81" rot="R90"/>
+<pad name="1" x="4.445" y="-7.62" drill="2.5" diameter="3.81"/>
+<pad name="3" x="4.445" y="-13.97" drill="3.2" diameter="5.08"/>
+<text x="6.35" y="-6.35" size="1.27" layer="48">1</text>
+<text x="0" y="-8.89" size="1.27" layer="48">2</text>
+<text x="6.35" y="-12.7" size="1.27" layer="48">3</text>
 </package>
 </packages>
 <symbols>
@@ -833,26 +833,6 @@ EEPROM 256 K</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADAPTER-PLUG-5.5MM" prefix="J">
-<description>PCB mounted 5.5 mm adapter plug.
-
-As bought at Okaphone.</description>
-<gates>
-<gate name="1" symbol="PIN" x="-2.54" y="10.16" addlevel="always"/>
-<gate name="2" symbol="PIN" x="-2.54" y="2.54" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="ADAPTER-PLUG-5.5MM">
-<connects>
-<connect gate="1" pin="KL" pad="1"/>
-<connect gate="2" pin="KL" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DIR9001">
 <description>&lt;h1&gt;DIR9001&lt;/h1&gt;
 
@@ -972,6 +952,28 @@ EEPROM, the one the Beagle Bone Black wants</description>
 </connects>
 <technologies>
 <technology name="YI-GT3"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADAPTER-PLUG-5.5/2.1MM" prefix="J">
+<description>&lt;h1&gt;PCB mounted 5.5/2.1 mm adapter plug&lt;/h1&gt;
+
+&lt;p&gt;Outer diameter 5.5 mm, inner diameter 2.1 mm.&lt;/p&gt;
+
+&lt;p&gt;TODO: order codes?&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="PIN" x="-2.54" y="10.16" addlevel="always"/>
+<gate name="2" symbol="PIN" x="-2.54" y="2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="ADAPTER-PLUG-5.5/2.1MM">
+<connects>
+<connect gate="1" pin="KL" pad="1"/>
+<connect gate="2" pin="KL" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -17416,7 +17418,6 @@ grid 2.54 mm</description>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="P-1" library="supply1" deviceset="V-" device=""/>
 <part name="C32" library="rcl" deviceset="C-EU" device="050-024X044" value="100nf"/>
-<part name="AC" library="0000halfgaar" deviceset="ADAPTER-PLUG-5.5MM" device=""/>
 <part name="C33" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="22µF/25V"/>
 <part name="C34" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="22µF/25V"/>
 <part name="SUPPLY19" library="supply2" deviceset="VDD" device=""/>
@@ -17586,6 +17587,7 @@ grid 2.54 mm</description>
 <part name="OUT8" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="C17" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10 µF"/>
 <part name="SUPPLY24" library="supply2" deviceset="DGND" device=""/>
+<part name="AC" library="0000halfgaar" deviceset="ADAPTER-PLUG-5.5/2.1MM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17761,8 +17763,6 @@ grid 2.54 mm</description>
 <instance part="P+1" gate="1" x="109.22" y="246.38"/>
 <instance part="P-1" gate="1" x="109.22" y="167.64"/>
 <instance part="C32" gate="G$1" x="137.16" y="215.9"/>
-<instance part="AC" gate="1" x="7.62" y="223.52"/>
-<instance part="AC" gate="2" x="7.62" y="215.9"/>
 <instance part="C33" gate="G$1" x="55.88" y="205.74"/>
 <instance part="C34" gate="G$1" x="55.88" y="228.6"/>
 <instance part="SUPPLY19" gate="G$1" x="-99.06" y="93.98"/>
@@ -18218,6 +18218,8 @@ grid 2.54 mm</description>
 <instance part="OUT8" gate="-2" x="414.02" y="-154.94"/>
 <instance part="C17" gate="G$1" x="-91.44" y="73.66"/>
 <instance part="SUPPLY24" gate="G$1" x="-91.44" y="60.96"/>
+<instance part="AC" gate="1" x="7.62" y="223.52"/>
+<instance part="AC" gate="2" x="7.62" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -18563,7 +18565,6 @@ grid 2.54 mm</description>
 <pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="C24" gate="G$1" pin="-"/>
 <pinref part="C25" gate="G$1" pin="+"/>
-<pinref part="AC" gate="2" pin="KL"/>
 <pinref part="C33" gate="G$1" pin="+"/>
 <wire x1="55.88" y1="208.28" x2="55.88" y2="215.9" width="0.1524" layer="91"/>
 <junction x="55.88" y="215.9"/>
@@ -18573,6 +18574,7 @@ grid 2.54 mm</description>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="116.84" y1="215.9" x2="114.3" y2="215.9" width="0.1524" layer="91"/>
 <junction x="114.3" y="215.9"/>
+<pinref part="AC" gate="2" pin="KL"/>
 </segment>
 <segment>
 <pinref part="3_C5" gate="G$1" pin="1"/>
