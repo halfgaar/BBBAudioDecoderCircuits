@@ -1556,6 +1556,7 @@ type 0207, grid 10 mm</description>
 <rectangle x1="-5.905" y1="3.195" x2="-5.595" y2="4.305" layer="29" rot="R180"/>
 <rectangle x1="-5.89" y1="3.215" x2="-5.61" y2="4.285" layer="31" rot="R180"/>
 <rectangle x1="-3.42889375" y1="-1.702440625" x2="3.436646875" y2="1.713496875" layer="29"/>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="31"/>
 </package>
 <package name="DIL8">
 <description>a DIL08 package with big pads</description>
@@ -2974,7 +2975,6 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="C11" pad="1"/>
 <contactref element="C16" pad="-"/>
 <via x="62.865" y="73.18375" extent="1-16" drill="0.8"/>
-<wire x1="61.98" y1="71.06" x2="61.98" y2="72.93375" width="0.254" layer="1"/>
 <wire x1="61.98" y1="72.93375" x2="62.23" y2="73.18375" width="0.254" layer="1"/>
 <wire x1="62.23" y1="73.18375" x2="62.865" y2="73.18375" width="0.254" layer="1"/>
 <wire x1="62.98" y1="71.06" x2="62.98" y2="73.06875" width="0.254" layer="1"/>
@@ -3026,6 +3026,10 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="Q1" pad="S"/>
 <contactref element="Q2" pad="S"/>
 <contactref element="C17" pad="-"/>
+<contactref element="U1" pad="EXP"/>
+<wire x1="61.98" y1="71.06" x2="61.98" y2="67.56" width="0.254" layer="1"/>
+<wire x1="61.98" y1="67.56" x2="62.23" y2="67.31" width="0.254" layer="1"/>
+<wire x1="61.98" y1="71.06" x2="61.98" y2="72.93375" width="0.254" layer="1"/>
 </signal>
 <signal name="AGND">
 <contactref element="U1" pad="27"/>

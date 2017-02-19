@@ -271,6 +271,7 @@
 <rectangle x1="-5.905" y1="3.195" x2="-5.595" y2="4.305" layer="29" rot="R180"/>
 <rectangle x1="-5.89" y1="3.215" x2="-5.61" y2="4.285" layer="31" rot="R180"/>
 <rectangle x1="-3.42889375" y1="-1.702440625" x2="3.436646875" y2="1.713496875" layer="29"/>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="31"/>
 </package>
 <package name="DIL8">
 <description>a DIL08 package with big pads</description>
@@ -742,7 +743,7 @@ EEPROM 256 K</description>
 </symbols>
 <devicesets>
 <deviceset name="PCM1690">
-<description>&lt;h1&gt;PLL1609&lt;/h1&gt;
+<description>&lt;h1&gt;PCM1690&lt;/h1&gt;
 
 &lt;p&gt;
 24-Bit, 192-kHz Sampling, Enhanced Multi-Level ΔΣ, Eight-Channel Audio Digital-to-Analog Converter
@@ -758,7 +759,7 @@ EEPROM 256 K</description>
 <connect gate="U$1" pin="AMUTEI" pad="18"/>
 <connect gate="U$1" pin="AMUTEO" pad="19"/>
 <connect gate="U$1" pin="BCK" pad="7"/>
-<connect gate="U$1" pin="DGND" pad="13"/>
+<connect gate="U$1" pin="DGND" pad="13 EXP"/>
 <connect gate="U$1" pin="DIN1" pad="8"/>
 <connect gate="U$1" pin="DIN2" pad="9"/>
 <connect gate="U$1" pin="DIN3" pad="10"/>
