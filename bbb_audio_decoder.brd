@@ -2278,14 +2278,17 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="VALUE" x="97.2312" y="31.496" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1_R4" library="rcl" package="0207/7" value="360" x="92.71" y="29.21" smashed="yes" rot="R270">
-<attribute name="NAME" x="89.50325" y="36.195" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="92.04325" y="31.75" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="92.1512" y="31.496" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="1_R6" library="rcl" package="0207/7" value="5.6k" x="100.33" y="29.21" smashed="yes" rot="R270">
 <attribute name="NAME" x="99.66325" y="30.95625" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="99.7712" y="31.496" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="1_C3" library="rcl" package="C050-024X044" value="680pF" x="90.17" y="27.94" rot="R270"/>
+<element name="1_C3" library="rcl" package="C050-024X044" value="680pF" x="90.17" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="90.678" y="31.8135" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="87.503" y="30.099" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="1_C4" library="rcl" package="C050-025X075" value="3.3nF" x="96.52" y="35.56" smashed="yes">
 <attribute name="NAME" x="97.0915" y="37.5285" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="93.091" y="32.766" size="1.27" layer="27" ratio="10"/>
