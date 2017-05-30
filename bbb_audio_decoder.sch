@@ -893,7 +893,7 @@ DIR9001 Digital audio interface receiver</description>
 <connect gate="G$1" pin="AHCLKX" pad="25"/>
 <connect gate="G$1" pin="DECODING_LED(GPIO0_7)" pad="42"/>
 <connect gate="G$1" pin="DGND" pad="1 2"/>
-<connect gate="G$1" pin="DIN" pad="32"/>
+<connect gate="G$1" pin="DIN" pad="30"/>
 <connect gate="G$1" pin="DIR_AUDIO(GPIO1_19)" pad="16"/>
 <connect gate="G$1" pin="DOUT" pad="28"/>
 <connect gate="G$1" pin="EEPROM_I2C_SCL" pad="19"/>

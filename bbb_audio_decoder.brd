@@ -3136,12 +3136,14 @@ Current date of revision of DRC: 2012-07-08.
 </signal>
 <signal name="DIN">
 <contactref element="R32" pad="1"/>
-<contactref element="P9" pad="32"/>
-<wire x1="85.09" y1="95.25" x2="86.36" y2="93.98" width="0.254" layer="1"/>
-<wire x1="86.36" y1="93.98" x2="86.36" y2="91.44" width="0.254" layer="1"/>
+<contactref element="P9" pad="30"/>
 <wire x1="86.36" y1="91.44" x2="82.55" y2="87.63" width="0.254" layer="1"/>
 <wire x1="82.55" y1="87.63" x2="82.55" y2="81.43875" width="0.254" layer="1"/>
 <wire x1="82.55" y1="81.43875" x2="80.80375" y2="79.6925" width="0.254" layer="1"/>
+<wire x1="86.36" y1="91.44" x2="86.36" y2="93.50375" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="93.50375" x2="85.88375" y2="93.98" width="0.3048" layer="1"/>
+<wire x1="85.88375" y1="93.98" x2="83.82" y2="93.98" width="0.3048" layer="1"/>
+<wire x1="83.82" y1="93.98" x2="82.55" y2="95.25" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R4" pad="2"/>
