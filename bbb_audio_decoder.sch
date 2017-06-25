@@ -19261,7 +19261,7 @@ grid 2.54 mm</description>
 <wire x1="58.42" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AHCLKX" class="0">
+<net name="FSX" class="0">
 <segment>
 <pinref part="P9" gate="G$1" pin="FSX"/>
 <wire x1="-33.02" y1="81.28" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
