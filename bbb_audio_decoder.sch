@@ -17584,6 +17584,7 @@ grid 2.54 mm</description>
 <part name="SUPPLY24" library="supply2" deviceset="DGND" device=""/>
 <part name="AC" library="0000halfgaar" deviceset="ADAPTER-PLUG-5.5/2.1MM" device=""/>
 <part name="U$1" library="0000halfgaar" deviceset="BEAGLEBONEP9" device=""/>
+<part name="SUPPLY26" library="supply2" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18207,6 +18208,7 @@ grid 2.54 mm</description>
 <instance part="AC" gate="1" x="7.62" y="223.52"/>
 <instance part="AC" gate="2" x="7.62" y="215.9"/>
 <instance part="U$1" gate="G$1" x="-60.96" y="58.42"/>
+<instance part="SUPPLY26" gate="G$1" x="78.74" y="-134.62" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -18334,6 +18336,16 @@ grid 2.54 mm</description>
 <wire x1="-101.6" y1="88.9" x2="-101.6" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 <wire x1="-101.6" y1="88.9" x2="-88.9" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PSCK1"/>
+<pinref part="SUPPLY26" gate="G$1" pin="VDD"/>
+<wire x1="83.82" y1="-129.54" x2="78.74" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-129.54" x2="78.74" y2="-132.08" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PSCK0"/>
+<wire x1="83.82" y1="-124.46" x2="78.74" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-124.46" x2="78.74" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="78.74" y="-129.54"/>
 </segment>
 </net>
 <net name="DGND" class="0">

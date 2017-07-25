@@ -2936,6 +2936,8 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="JP1" pad="3"/>
 <contactref element="U$1" pad="4"/>
 <contactref element="U$1" pad="3"/>
+<contactref element="U2" pad="14"/>
+<contactref element="U2" pad="13"/>
 </signal>
 <signal name="DGND">
 <contactref element="U1" pad="13"/>
