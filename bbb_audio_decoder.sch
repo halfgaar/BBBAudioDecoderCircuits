@@ -18226,7 +18226,14 @@ grid 2.54 mm</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U1" gate="U$1" pin="SCKI"/>
-<wire x1="27.94" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="38.1" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="38.1" y="53.34"/>
+<wire x1="38.1" y1="-71.12" x2="73.66" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-71.12" x2="73.66" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SCKO"/>
+<wire x1="73.66" y1="-78.74" x2="83.82" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
