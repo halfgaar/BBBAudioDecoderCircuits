@@ -70,7 +70,6 @@
 <hole x="110.49" y="97.79" drill="3.2"/>
 <hole x="110.49" y="2.54" drill="3.2"/>
 <hole x="3.81" y="2.54" drill="3.2"/>
-<text x="97.31375" y="80.80375" size="1.778" layer="21">-</text>
 <text x="84.93125" y="2.8575" size="1.016" layer="21">GND</text>
 <text x="60.6425" y="2.54" size="1.016" layer="21">GND</text>
 <text x="36.83" y="2.54" size="1.016" layer="21">GND</text>
@@ -2196,6 +2195,36 @@ grid 3 x 5 mm</description>
 </package>
 </packages>
 </library>
+<library name="led">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="1206">
+<description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
+7022X Series SMT LEDs 1206 Package Size</description>
+<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.1016" layer="21" curve="95.452622"/>
+<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1016" layer="51" curve="-84.547378"/>
+<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1016" layer="21" curve="-95.452622"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1016" layer="51" curve="-84.547378"/>
+<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
+<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
+<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
+<rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2947,21 +2976,13 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="NAME" x="45.65015" y="73.5584" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="44.8564" y="73.8886" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="Q2" library="transistor-small-signal" package="SOT54E" value="BS170" x="99.06" y="86.6775" smashed="yes">
-<attribute name="VALUE" x="102.235" y="84.7725" size="1.27" layer="27" ratio="10"/>
-<attribute name="NAME" x="98.1075" y="83.185" size="1.27" layer="25" ratio="10"/>
+<element name="Q2" library="transistor-small-signal" package="SOT54E" value="BS170" x="99.85375" y="86.6775" smashed="yes">
+<attribute name="VALUE" x="103.02875" y="84.7725" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="98.90125" y="83.185" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="R11" library="rcl" package="0204V" value="120" x="94.615" y="88.10625" smashed="yes">
-<attribute name="NAME" x="92.64015" y="85.6234" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="92.4814" y="86.2584" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="92.4814" y="85.79485" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="DECODING" library="con-molex" package="22-23-2021" value="22-23-2021" x="94.45625" y="81.75625" smashed="yes">
-<attribute name="MPN" value="22-23-2021" x="94.45625" y="81.75625" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="94.45625" y="81.75625" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="94.45625" y="81.75625" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="94.45625" y="81.75625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="91.44" y="77.1525" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="91.91625" y="76.67625" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="OUT1" library="con-molex" package="22-23-2021" value="22-23-2021" x="96.36125" y="3.175" smashed="yes">
 <attribute name="MPN" value="22-23-2021" x="96.36125" y="3.175" size="1.778" layer="27" display="off"/>
@@ -3075,6 +3096,10 @@ Current date of revision of DRC: 2012-07-08.
 <attribute name="MF" value="" x="54.13375" y="85.725" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="49.08065" y="81.3801" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="49.08065" y="81.1261" size="0.8128" layer="27" ratio="10"/>
+</element>
+<element name="LED1" library="led" package="1206" value="" x="94.77375" y="85.09" smashed="yes">
+<attribute name="NAME" x="92.71" y="82.8675" size="1.27" layer="25"/>
+<attribute name="VALUE" x="93.50375" y="82.55" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -4621,25 +4646,12 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="103.28275" y1="70.104" x2="103.98125" y2="70.8025" width="1.016" layer="1"/>
 <wire x1="103.98125" y1="70.8025" x2="103.98125" y2="72.23125" width="1.016" layer="1"/>
 </signal>
-<signal name="N$91">
-<contactref element="Q2" pad="D"/>
-<contactref element="DECODING" pad="2"/>
-<wire x1="95.72625" y1="81.75625" x2="97.155" y2="81.75625" width="0.254" layer="1"/>
-<wire x1="97.155" y1="81.75625" x2="97.79" y2="82.39125" width="0.254" layer="1"/>
-<wire x1="97.79" y1="82.39125" x2="97.79" y2="86.6775" width="0.254" layer="1"/>
-</signal>
-<signal name="N$92">
-<contactref element="R11" pad="1"/>
-<contactref element="DECODING" pad="1"/>
-<wire x1="93.18625" y1="81.75625" x2="93.18625" y2="87.9475" width="0.254" layer="1"/>
-<wire x1="93.18625" y1="87.9475" x2="93.345" y2="88.10625" width="0.254" layer="1"/>
-</signal>
 <signal name="N$94">
 <contactref element="Q2" pad="G"/>
 <contactref element="U$1" pad="42"/>
 <wire x1="100.33" y1="95.25" x2="101.6" y2="93.98" width="0.254" layer="16"/>
-<wire x1="101.6" y1="93.98" x2="101.6" y2="91.1225" width="0.254" layer="16"/>
-<wire x1="101.6" y1="91.1225" x2="99.06" y2="88.5825" width="0.254" layer="16"/>
+<wire x1="101.6" y1="93.98" x2="101.6" y2="90.32875" width="0.254" layer="16"/>
+<wire x1="101.6" y1="90.32875" x2="99.85375" y2="88.5825" width="0.254" layer="16"/>
 </signal>
 <signal name="N$37">
 <contactref element="OUT1" pad="2"/>
@@ -4712,6 +4724,19 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="X1" pad="1"/>
 <wire x1="3.81" y1="84.9884" x2="5.61405" y2="84.9884" width="0.8128" layer="1"/>
 <wire x1="5.61405" y1="84.9884" x2="10.63625" y2="79.9662" width="0.8128" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R11" pad="1"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="93.35175" y1="85.09" x2="93.35175" y2="88.0995" width="0.254" layer="1"/>
+<wire x1="93.35175" y1="88.0995" x2="93.345" y2="88.10625" width="0.254" layer="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="LED1" pad="C"/>
+<contactref element="Q2" pad="D"/>
+<wire x1="96.19575" y1="85.09" x2="98.1075" y2="85.09" width="0.254" layer="1"/>
+<wire x1="98.1075" y1="85.09" x2="98.58375" y2="85.56625" width="0.254" layer="1"/>
+<wire x1="98.58375" y1="85.56625" x2="98.58375" y2="86.6775" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
