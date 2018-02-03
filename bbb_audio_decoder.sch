@@ -21072,9 +21072,13 @@ Source: www.kingbright.com</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="53.34" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="66.04" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="66.04" x2="-7.62" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="66.04" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="76.2" x2="-7.62" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="88.9" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="AHCLKX"/>
+<pinref part="U$1" gate="G$1" pin="AHCLKR"/>
+<wire x1="-35.56" y1="76.2" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-7.62" y="76.2"/>
 </segment>
 </net>
 <net name="N$51" class="0">

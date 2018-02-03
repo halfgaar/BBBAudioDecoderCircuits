@@ -3876,6 +3876,8 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="63.97625" y1="86.36" x2="63.97625" y2="83.185" width="0.254" layer="1"/>
 <contactref element="U$1" pad="25"/>
 <wire x1="78.105" y1="90.805" x2="80.01" y2="92.71" width="0.254" layer="1"/>
+<contactref element="U$1" pad="28"/>
+<wire x1="80.01" y1="92.71" x2="82.55" y2="95.25" width="0.254" layer="1"/>
 </signal>
 <signal name="N$51">
 <contactref element="R32" pad="2"/>
