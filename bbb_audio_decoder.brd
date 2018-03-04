@@ -3292,10 +3292,8 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="8_R5" pad="1"/>
 <polygon width="0.254" layer="16" isolate="0.3048">
 <vertex x="1.27" y="90.17"/>
-<vertex x="1.27" y="1.27"/>
-<vertex x="111.76" y="1.27"/>
-<vertex x="111.76" y="53.34"/>
-<vertex x="74.13625" y="53.34"/>
+<vertex x="1.27" y="57.15"/>
+<vertex x="74.13625" y="57.15"/>
 <vertex x="74.13625" y="64.77"/>
 <vertex x="44.45" y="64.77"/>
 <vertex x="44.45" y="90.17"/>
@@ -3323,6 +3321,14 @@ Current date of revision of DRC: 2012-07-08.
 <contactref element="X1" pad="2"/>
 <contactref element="X1" pad="3"/>
 <contactref element="R13" pad="1"/>
+<wire x1="3.81" y1="58.42" x2="3.81" y2="52.07" width="1.27" layer="16"/>
+<polygon width="0.254" layer="16" isolate="0.3048">
+<vertex x="1.27" y="53.34"/>
+<vertex x="1.27" y="1.27"/>
+<vertex x="111.76" y="1.27"/>
+<vertex x="111.76" y="52.07"/>
+<vertex x="111.76" y="53.34"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="C6" pad="1"/>
@@ -3678,7 +3684,6 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="22.86" y1="22.86" x2="20.6375" y2="22.86" width="0.6096" layer="16"/>
 <wire x1="20.6375" y1="22.86" x2="20.47875" y2="23.01875" width="0.6096" layer="16"/>
 <wire x1="20.47875" y1="23.01875" x2="18.0975" y2="25.4" width="0.6096" layer="16"/>
-<wire x1="18.0975" y1="25.4" x2="18.0975" y2="52.705" width="0.6096" layer="16"/>
 <wire x1="20.32" y1="22.86" x2="20.47875" y2="23.01875" width="0.6096" layer="16"/>
 <via x="20.32" y="8.255" extent="1-16" drill="0.8"/>
 <wire x1="94.615" y1="8.255" x2="95.25" y2="8.89" width="0.6096" layer="16"/>
@@ -3706,6 +3711,11 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="33.02" y1="64.77" x2="35.56" y2="64.77" width="0.8128" layer="1"/>
 <wire x1="29.36875" y1="54.61" x2="30.63875" y2="55.88" width="0.6096" layer="16"/>
 <wire x1="30.63875" y1="55.88" x2="30.63875" y2="59.69" width="0.6096" layer="16"/>
+<wire x1="18.0975" y1="25.4" x2="18.0975" y2="26.67" width="0.6096" layer="16"/>
+<via x="18.0975" y="26.67" extent="1-16" drill="0.8"/>
+<wire x1="18.0975" y1="26.67" x2="18.0975" y2="48.73625" width="0.6096" layer="1"/>
+<wire x1="18.0975" y1="52.705" x2="18.0975" y2="48.73625" width="0.6096" layer="16"/>
+<via x="18.0975" y="48.73625" extent="1-16" drill="0.8"/>
 </signal>
 <signal name="V+">
 <contactref element="IC1" pad="8"/>
@@ -3743,7 +3753,6 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="41.91" y1="11.43" x2="41.91" y2="15.24" width="0.6096" layer="16"/>
 <wire x1="17.78" y1="16.51" x2="17.78" y2="24.13" width="0.6096" layer="16"/>
 <wire x1="17.78" y1="24.13" x2="16.51" y2="25.4" width="0.6096" layer="16"/>
-<wire x1="16.51" y1="54.61" x2="16.51" y2="25.4" width="0.6096" layer="16"/>
 <contactref element="C12" pad="+"/>
 <contactref element="C13" pad="+"/>
 <contactref element="C14" pad="+"/>
@@ -3770,6 +3779,11 @@ Current date of revision of DRC: 2012-07-08.
 <wire x1="27.94" y1="57.15" x2="26.67" y2="55.88" width="0.6096" layer="16"/>
 <wire x1="39.37" y1="83.185" x2="39.37" y2="78.4225" width="0.8128" layer="1"/>
 <wire x1="39.37" y1="78.4225" x2="40.64" y2="77.1525" width="0.8128" layer="1"/>
+<wire x1="16.51" y1="54.61" x2="16.51" y2="50.8" width="0.6096" layer="16"/>
+<wire x1="16.51" y1="25.4" x2="16.51" y2="29.21" width="0.6096" layer="16"/>
+<via x="16.51" y="29.21" extent="1-16" drill="0.8"/>
+<wire x1="16.51" y1="29.21" x2="16.51" y2="50.8" width="0.6096" layer="1"/>
+<via x="16.51" y="50.8" extent="1-16" drill="0.8"/>
 </signal>
 <signal name="N$39">
 <contactref element="C24" pad="+"/>
