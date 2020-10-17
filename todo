@@ -1,0 +1,8 @@
+- Jumpers DIR9001 weg?
+- De TOSlink plug, moet dat op een los bordje, voor paneelbevestiging?
+- Multiple inputs?
+- BUG: it sometimes refused to boot. I saw the blue lights go off again when
+  the boot process was initiated. The LCD backlight dipped. Scope image
+  revealved dips in the rail. I added 4700µF to before the positive regulators.
+  That prevented the dips. I'm not sure if 4700µF in total would be enough. The
+  change has not been made to the PCB design (yet).
