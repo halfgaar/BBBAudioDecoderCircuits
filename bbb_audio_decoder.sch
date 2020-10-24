@@ -19410,6 +19410,7 @@ Source: www.kingbright.com</description>
 <part name="LCD" library="con-molex" deviceset="22-?-04" device="27-2041"/>
 <part name="SUPPLY57" library="supply2" deviceset="+5V/1" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SMT1206"/>
+<part name="C17" library="rcl" deviceset="CPOL-EU" device="E5-13" value="2200uF/16V"/>
 </parts>
 <sheets>
 <sheet>
@@ -20052,6 +20053,10 @@ Source: www.kingbright.com</description>
 <instance part="LCD" gate="-4" x="22.86" y="-17.78"/>
 <instance part="SUPPLY57" gate="G$1" x="7.62" y="-43.18" rot="R180"/>
 <instance part="LED1" gate="G$1" x="5.08" y="132.08"/>
+<instance part="C17" gate="G$1" x="15.24" y="233.68" smashed="yes">
+<attribute name="NAME" x="16.383" y="234.1626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.763" y="226.5426" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20436,6 +20441,9 @@ Source: www.kingbright.com</description>
 <pinref part="SUPPLY16" gate="G$1" pin="AGND"/>
 <wire x1="116.84" y1="215.9" x2="114.3" y2="215.9" width="0.1524" layer="91"/>
 <junction x="114.3" y="215.9"/>
+<pinref part="C17" gate="G$1" pin="-"/>
+<wire x1="15.24" y1="228.6" x2="15.24" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="215.9" x2="33.02" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="3_C5" gate="G$1" pin="1"/>
@@ -20969,7 +20977,8 @@ Source: www.kingbright.com</description>
 <pinref part="D6" gate="G$1" pin="C"/>
 <pinref part="B1" gate="1" pin="+"/>
 <wire x1="7.62" y1="223.52" x2="7.62" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="241.3" x2="20.32" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="241.3" x2="15.24" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="241.3" x2="20.32" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="241.3" x2="33.02" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="281.94" x2="55.88" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="276.86" x2="40.64" y2="281.94" width="0.1524" layer="91"/>
@@ -20985,6 +20994,9 @@ Source: www.kingbright.com</description>
 <wire x1="20.32" y1="241.3" x2="20.32" y2="281.94" width="0.1524" layer="91"/>
 <junction x="20.32" y="241.3"/>
 <junction x="20.32" y="281.94"/>
+<pinref part="C17" gate="G$1" pin="+"/>
+<wire x1="15.24" y1="236.22" x2="15.24" y2="241.3" width="0.1524" layer="91"/>
+<junction x="15.24" y="241.3"/>
 </segment>
 </net>
 <net name="N$41" class="0">
